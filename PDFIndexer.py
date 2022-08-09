@@ -22,7 +22,7 @@ for pages in pdf_file.pages:
             if not re.match("\s+", subheading_word):
                 page_footer_list = list((words_on_page[-2]['text']).split(" "))
                 # print(page_footer_list)
-                if page_footer_list[0] == "TSFX":  # check start of TSFX
+                if page_footer_list[0] == "Footer first word": # change this
                     page_number = page_footer_list[40]
                     file_object.write(f"{subheading_word}, {page_number}")
                 else:
