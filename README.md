@@ -16,7 +16,7 @@ Invoke script as seen below
 python PDFIndexer.py <PDF FILE NAME>
 ```
 
-This will output the indexed file into the directory that the script is found in.
+This will output a CSV file file into the directory that the script is found in.
 
 ## How it works
 
